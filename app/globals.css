@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    --color-pink: #fb2e86;
+    --color-off-navy-blue: #3f509e;
+    --color-navy-blue: #151875;
+    --color-red-price: #fb2448;
+    --color-purple: #7e33e0;
+    --color-off-purple: #9f63b5;
+    --color-accent-purple: #e0d3f5;
+    --color-sub-text: rgba(243, 249, 255, 100%);
+    --color-input-border: #e7e6ef;
+  }
+}
+
+@layer base {
+}
